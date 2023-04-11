@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Arial;
+}
+.navbar ul{
+    list-style: none;
+    background:  #333;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    font-size: 14px;
+}
+.navbar a:hover{
+    background: #ffffff;
+    color: black;
+
+}
+.background{
+    height: 600px;
+    background-image: url('imgs/pexels.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
